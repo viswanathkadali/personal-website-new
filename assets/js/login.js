@@ -59,7 +59,7 @@ $(document).ready(function() {
                     }
                     if (count > 0 && password.length >= 6) {
                         window.location.reload();
-                        window.location.href = window.origin + "home.html";
+                        window.location.href = window.origin + "./home.html";
                     } else if (email != "" && password != "" && password.length >= 6) {
                         loginerror.innerHTML = "Invalid username or password";
                         $('.login-loader').hide();
