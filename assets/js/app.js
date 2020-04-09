@@ -3,7 +3,7 @@ $(document).ready(function() {
     $(".staffpage").css("min-height", $(window).height() - headerHeight);
     // Logout function
     $("#logout").on("click", function() {
-        window.location.href = window.origin + '/index.html';
+        window.location.href = window.origin + '/personal-website-new/';
         localStorage.removeItem("UserId");
         localStorage.removeItem("password");
         localStorage.removeItem("jobrole");
