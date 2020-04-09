@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Kasi website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="assets/js/login.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="login-wrapper pageheight">
+        <div class="loginoverlay">
+            <div class="container">
+                <div class="loaderblock">
+                    <div class="login-loader"></div>
+                </div>
+
+                <form class="text-white" onsubmit="return false">
+                    <p class="login-icon"><i class="fa fa-user-circle-o" aria-hidden="true"></i></p>
+                    <h1 class="text-center">SIGNIN</h1>
+                    <div class="form-group input-effect">
+                        <input type="text" class="form-control effect-2" id="email" placeholder="Enter userid" name="email">
+                        <i class="fa fa-user-o" aria-hidden="true"></i>
+
+                        <!-- <span class="focus-border"></span> -->
+                        <span style="color:red" id="emailerr"></span>
+                    </div>
+                    <div class="form-group input-effect">
+                        <input type="password" class="form-control effect-2" id="pwd" placeholder="Enter password" name="pswd">
+                        <i class="fa fa-lock" aria-hidden="true"></i>
+
+                        <!-- <span class="focus-border"></span> -->
+                        <span style="color:red" id="pwderr"></span>
+                        <p id="loginerr" style="color:red"></p>
+                    </div>
+                    <!-- <input type="submit" id="submitbtn" class="btn btn-primary" value="input"> -->
+                    <button type="submit" id="submitbtn" class="btn btn-primary"><span>LOGIN</span></button>
+                    <!-- <button>save</button> -->
+                    <!-- <a id="submitbtn" class="btn btn-primary" onclick="submit()"><span>LOGIN</span></a> -->
+                    <span class="wait-text text-center mt-2">Please wait...</span>
+                </form>
+            </div>
+            <div id="userimage">
+            </div>
+        </div>
+    </div>
+    <script>
+        $(window).load(function() {
+            // $(".col-3 input").val("");
+
+            $(".input-effect input").focusout(function() {
+                if ($(this).val() != "") {
+                    $(this).addClass("has-content");
+                } else {
+                    $(this).removeClass("has-content");
+                }
+            })
+        });
+    </script>
+</body>
+
+</html>

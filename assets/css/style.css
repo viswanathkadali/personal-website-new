@@ -1,0 +1,524 @@
+/* Default styles */
+
+.row,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* Login page css start here */
+
+.login-wrapper {
+    /* background: url('../images/login-bg.jpg') no-repeat;
+    background-attachment: fixed;
+    background-size: cover; */
+    background: teal;
+}
+
+.loginoverlay {
+    background: rgba(0, 0, 0, 0.2);
+    padding-top: 8%;
+}
+
+.login-wrapper .container {
+    background: inherit;
+    max-width: 450px;
+    padding: 110px 50px 50px;
+    position: relative;
+    -webkit-box-shadow: 0 0 8px 5px #2F353B;
+    box-shadow: 0 0 8px 5px #2F353B;
+}
+
+.login-icon {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.login-wrapper .fa-user-circle-o {
+    font-size: 80px;
+    color: mediumturquoise;
+}
+
+.login-wrapper h1 {
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.form-group i {
+    position: absolute;
+    top: 10px;
+    transition: 0.4s;
+}
+
+.form-group input {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    border-radius: 0px;
+    padding-left: 25px;
+    color: #fff;
+}
+
+.form-group input:focus,
+.form-group input:active {
+    background: none !important;
+    outline: none;
+    box-shadow: none;
+    border-color: #fff;
+    border-bottom: 1px solid #1df11ac2;
+}
+
+.form-group input:-internal-autofill-selected {
+    background: none !important;
+}
+
+.form-control:focus {
+    color: #fff;
+}
+
+.form-control:focus~i {
+    color: #1df11ac2;
+    transition: 0.4s;
+}
+
+
+/* .effect-2~.focus-border {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: #1df11ac2;
+    transition: 0.4s;
+} */
+
+
+/* .effect-2:focus~.focus-border {
+    width: 100%;
+    transition: 0.4s;
+    left: 0;
+} */
+
+.form-group input::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fff;
+    opacity: 1;
+    /* Firefox */
+}
+
+.form-group input:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #fff;
+}
+
+.form-group input::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #fff;
+}
+
+#submitbtn {
+    cursor: pointer;
+    width: 120px;
+    display: block;
+    margin: auto;
+    background: #0af94787;
+    border: none;
+    transition: all 0.5s;
+}
+
+#submitbtn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    letter-spacing: 1px;
+}
+
+#submitbtn:hover span {
+    padding-right: 25px;
+}
+
+#submitbtn:hover span::after {
+    opacity: 1;
+    right: 0;
+}
+
+#submitbtn span::after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: -13px;
+    right: -20px;
+    transition: 0.5s;
+    font-size: 30px;
+}
+
+#submitbtn:hover {
+    transition: all 0.5s;
+    /* background: #2ec112; */
+}
+
+
+/* Login page css end here */
+
+
+/* Dashboard page css start here */
+
+.navbar {
+    background: #000 !important;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-brand {
+    max-width: 80px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    padding: 8px 20px;
+}
+
+.userinfo {
+    background: crimson;
+    border-radius: 20px;
+    padding: 35px;
+    margin-top: 25px;
+}
+
+.userimage-block h2 {
+    font-size: 22px;
+    margin: 10px 0px;
+    font-family: cursive;
+}
+
+.userimage-block h3 {
+    font-size: 18px;
+    font-family: cursive;
+}
+
+.userimage-block .img-inner {
+    max-width: 230px;
+    margin: auto;
+}
+
+.emp-details {
+    padding-top: 5px;
+}
+
+.emp-details p {
+    font-size: 18px;
+    margin: 10px 0px;
+}
+
+.qrcode-inner {
+    max-width: 250px;
+    margin-left: auto;
+}
+
+
+/* .staff-table {
+    margin: 50px auto;
+    width: 70%;
+} */
+
+.staff-table th {
+    font-size: 20px;
+}
+
+.staff-table td.name {
+    word-break: break-all;
+}
+
+.staffpage {
+    background: currentColor;
+    padding-top: 50px;
+}
+
+
+/* Dashboard page css end here */
+
+
+/* News page css start here */
+
+#news-block h1 {
+    color: navy;
+    font-family: monospace;
+    font-size: 50px;
+    font-weight: bold;
+    /* margin-top: 15px; */
+}
+
+.newspage .tab-pane {
+    margin-top: 0px !important;
+}
+
+.news-list {
+    margin: 30px 0px;
+    color: #fff;
+    background: rebeccapurple;
+    border-radius: 15px;
+    padding: 15px;
+    -webkit-box-shadow: 0 0 5px 4px #A9A9A9;
+    box-shadow: 0 0 5px 4px #A9A9A9;
+}
+
+.news-list .right-block {
+    max-height: 200px;
+    overflow: hidden;
+}
+
+
+/* .newspage .tabinner-block {
+    max-height: 430px;
+    overflow: hidden;
+} */
+
+.news-list .title {
+    margin-bottom: 10px;
+}
+
+.news-list a {
+    color: powderblue;
+}
+
+.nav-tabs {
+    width: 50%;
+    margin: auto;
+}
+
+.newspage .container {
+    margin-top: 30px;
+}
+
+a:hover,
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+.tab .nav-tabs {
+    border: none;
+    margin-bottom: 10px;
+}
+
+.tab .nav-tabs li a {
+    padding: 10px 20px;
+    margin-right: 15px;
+    background: #f8333c;
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    border-top: 3px solid #f8333c;
+    border-bottom: 3px solid #f8333c;
+    border-radius: 0;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+
+.tab .nav-tabs li.active a,
+.tab .nav-tabs li a:hover {
+    border: none;
+    border-top: 3px solid #f8333c;
+    border-bottom: 3px solid #f8333c;
+    background: #fff;
+    color: #f8333c;
+}
+
+.tab .nav-tabs li a:before {
+    content: "";
+    border-top: 15px solid #f8333c;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    position: absolute;
+    top: 0;
+    left: -50%;
+    transition: all 0.3s ease 0s;
+}
+
+.tab .nav-tabs li a:hover:before,
+.tab .nav-tabs li.active a:before {
+    left: 0;
+}
+
+.tab .nav-tabs li a:after {
+    content: "";
+    border-bottom: 15px solid #f8333c;
+    border-left: 15px solid transparent;
+    border-top: 15px solid transparent;
+    position: absolute;
+    bottom: 0;
+    right: -50%;
+    transition: all 0.3s ease 0s;
+}
+
+.tab .nav-tabs li a:hover:after,
+.tab .nav-tabs li.active a:after {
+    right: 0;
+}
+
+.tab .tab-content {
+    padding: 20px 30px;
+    border-top: 3px solid #384d48;
+    border-bottom: 3px solid #384d48;
+    font-size: 17px;
+    color: #384d48;
+    letter-spacing: 1px;
+    line-height: 30px;
+    position: relative;
+}
+
+.tab .tab-content:before {
+    content: "";
+    border-top: 25px solid #384d48;
+    border-right: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.tab .tab-content:after {
+    content: "";
+    border-bottom: 25px solid #384d48;
+    border-left: 25px solid transparent;
+    border-top: 25px solid transparent;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.tab .tab-content h3 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.Addemployee {
+    background: crimson;
+    padding: 15px 20px;
+    display: inline-block;
+    float: left;
+}
+
+.Addemployee input {
+    width: 100%;
+}
+
+.staffpage .row {
+    display: inline-block;
+    margin: auto;
+    width: 100%;
+}
+
+#staff-table {
+    display: inline-block;
+    float: left;
+}
+
+#staff-table {
+    max-height: 500px;
+    overflow: hidden;
+}
+
+.tab-pane,
+.tab-pane h1 {
+    margin-top: 0px;
+}
+
+
+/* .tableinner {
+    max-height: 500px;
+    overflow: hidden;
+} */
+
+
+/* News page css end here */
+
+
+/* .bodyloginerr .focus-border {
+    bottom: 23px;
+} */
+
+.loaderblock {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.login-loader {
+    display: none;
+    height: 4px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-color: #ddd;
+}
+
+.login-loader:before {
+    display: block;
+    position: absolute;
+    content: "";
+    left: -200px;
+    width: 200px;
+    height: 4px;
+    background-color: #28a745;
+    animation: loading 2s linear infinite;
+}
+
+@keyframes loading {
+    from {
+        left: -200px;
+        width: 30%;
+    }
+    50% {
+        width: 30%;
+    }
+    70% {
+        width: 70%;
+    }
+    80% {
+        left: 50%;
+    }
+    95% {
+        left: 120%;
+    }
+    to {
+        left: 100%;
+    }
+}
+
+.wait-text {
+    display: none;
+    color: red;
+    /* display: block; */
+}
+
+
+/* .navbar.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+} */

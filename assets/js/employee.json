@@ -1,0 +1,60 @@
+{
+    "Employees": [{
+            "userId": "viswanath",
+            "password": "kasi12345",
+            "jobTitleName": "UI Developer",
+            "firstName": "Viswanath",
+            "lastName": "Kadali",
+            "preferredFullName": "Viswanath Kadali",
+            "employeeCode": "E1",
+            "city": "Rajahmundry",
+            "phoneNumber": "7207192031",
+            "emailAddress": "kadaliviswanadh@gmail.com",
+            "imgPath": "assets/images/kasi.jpg",
+            "qrimgPath": "assets/images/kasiqr.jpg"
+
+        },
+        {
+            "userId": "manikanta",
+            "password": "mani12345",
+            "jobTitleName": "Dotnet Developer",
+            "firstName": "Manikanta",
+            "lastName": "Mancharla",
+            "preferredFullName": "Manikanta Mancharla",
+            "employeeCode": "E2",
+            "city": "Prathipadu",
+            "phoneNumber": "9886754676",
+            "emailAddress": "manikanta@gmail.com",
+            "imgPath": "assets/images/anil.jpg",
+            "qrimgPath": "assets/images/maniqr.png"
+        },
+        {
+            "userId": "hemanth",
+            "password": "hemanth12345",
+            "jobTitleName": "UI Developer",
+            "firstName": "Hemanth",
+            "lastName": "Kumar",
+            "preferredFullName": "Hemanth Kumar",
+            "employeeCode": "E3",
+            "city": "Rajahmundry",
+            "phoneNumber": "8985552885",
+            "emailAddress": "hemanthkumar@gmail.com",
+            "imgPath": "assets/images/user-avatar.png",
+            "qrimgPath": "assets/images/hemanthqr.jpg"
+        },
+        {
+            "userId": "ramana",
+            "password": "ramana12345",
+            "jobTitleName": "UI Developer",
+            "firstName": "Hemanth",
+            "lastName": "Kumar",
+            "preferredFullName": "Hemanth Kumar",
+            "employeeCode": "E3",
+            "city": "Rajahmundry",
+            "phoneNumber": "8985552885",
+            "emailAddress": "hemanthkumar@gmail.com",
+            "imgPath": "assets/images/user-avatar.png",
+            "qrimgPath": "assets/images/hemanthqr.jpg"
+        }
+    ]
+}
